@@ -127,3 +127,36 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /*
+MEDIA QUERY da Desktop first
+*/
+
+/* Tablet */
+
+@media screen and (max-width: 768px){
+
+    .lessons .col{
+        width: 30%;
+        margin: 0 10px;
+    }
+
+    .steps .col {
+        width: calc(60% / 3);
+        margin: 0 10px;
+    }
+
+    .why-us .col-left {
+        width: 30%;
+        margin: 0 10px;
+    }
+    .why-us .col-right {
+        width: 35%;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 480px){
+
+}
