@@ -136,22 +136,8 @@ MEDIA QUERY da Desktop first
 
 @media screen and (max-width: 768px){
 
-    .lessons .col{
-        width: 30%;
-        margin: 0 10px;
-    }
-
-    .steps .col {
-        width: calc(60% / 3);
-        margin: 0 10px;
-    }
-
-    .why-us .col-left {
-        width: 30%;
-        margin: 0 10px;
-    }
-    .why-us .col-right {
-        width: 35%;
+    .container{
+        max-width: 768px;
     }
 }
 
@@ -159,4 +145,28 @@ MEDIA QUERY da Desktop first
 /* Mobile */
 @media screen and (max-width: 480px){
 
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .steps .col{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .why-us .col-left{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .why-us .col-right{
+        width: 80%;
+        margin: 20px 0;
+    }
+    .container{
+        max-width: 480px;
+    }
 }
