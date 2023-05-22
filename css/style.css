@@ -135,12 +135,9 @@ MEDIA QUERY da Desktop first
 /* Tablet */
 
 @media screen and (max-width: 768px){
-    body{
-        overflow-x: hidden;
-    }
 
     .container{
-        max-width: 768px;
+        width: 100%;
     }
 }
 
@@ -148,9 +145,6 @@ MEDIA QUERY da Desktop first
 /* Mobile */
 @media screen and (max-width: 480px){
 
-    body{
-        overflow-x: hidden;
-    }
     .row{
         flex-direction: column;
         align-items: center;
@@ -173,7 +167,14 @@ MEDIA QUERY da Desktop first
         margin: 20px 0;
     }
 
+}
+
+
+/* BONUS */
+
+@media screen and (max-width: 1160px){
+
     .container{
-        max-width: 480px;
+        width: 100%;
     }
 }
